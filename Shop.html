@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>RöBu Röthlisberger Buchhaltung</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script type="text/javascript">
+            function formularPruefen(meinShop)
+            {
+                var meineMail = meinFormular.email.value;
+                var meinText = meinShop.Nachricht.value;
+                if (meinText == "")
+                {
+                    alert("Bitte eine gültige E-Mail Adresse eingeben");
+                }
+                else
+                {
+                    var meineKriterien = /^.+@.+\..{2,6}$/;
+                if (meineKriterien.test(meineMail) == false)
+                {
+                    alert("Bitte eine gültige E-Mail Adresse eingeben");
+                }
+                else
+                {
+                    meinShop.submit();
+                }
+
+                }                           
+            }
+        </script>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="kopfleiste">
+                <h1><a href="index.html">RöBu - Röthlisberger Buchhaltung</a></h1>
+            </div>
+            <div id="menu">
+                <img src="Bilder/logo.png" alt="Buchhaltung1" width="100" height="100">
+                <ul>
+                    <li><a href="index.html">Programme</a></li>
+                    <li class="current">Shop</li>
+                    <li><a href="Hilfe.html">Hilfe</a></li>
+                    <li><a href="Über mich.html">Über mich</a></li>
+                    <li><a href="Kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <div id="inhalt">
+                <h2>Produkte</h2>
+                <h3>RöBu Buchhaltung</h3>
+                <img src="Bilder/Buchhaltung1.jpg" alt="Buchhaltung1" width="360" height="150">
+                <h4>Demoversion</h4>
+                <p>
+                    In der kostenlosen <strong>Demoversion</strong> kannst du dir gerne mal einen kleinen Einblick verschaffen. Wenn dich das Programm überzeugt, bestelle dir das Passwort. Mit der Eingabe des Passwortes wird die Demoversion zur Vollversion.
+                </p>
+    
+                <h4>Vollversion</h4>
+                <p>
+                    Bei Bestellung der <strong>Vollversion</strong> bekommst du auch gleich das Passwort. Du brauchst es also nicht zusätzlich zu bestellen.
+                </p><br><br>
+    
+                <h3>Sachbuch - Mit mir kannst du rechnen</h3>
+                <img src="Bilder/Buch.JPG" alt="Buchhaltung1" width="340" height="360">
+                <p>
+                    <h4>
+                        Inhalt
+                    </h4>
+                    Beim Lernen stossen wir oft auf ein immer wiederkehrendes Problem. Die Bücher sind voller Informationen, doch jeweils nur zu einem Thema. Die anderen Themen werden komplett ausgeklammert und es fällt einem schwer die wichtigen Informationen herauszufiltern. Dieses Buch fasst alles Wissenswerte für Sachbearbeiter im Rechnungswesen zusammen. Jedes prüfungsrelevante Thema wird behandelt. Jedoch geht keines so stark in die Tiefe, dass man komplett den Überblick verliert. Daher ist dieses Buch perfekt als ergänzendes Lernmittel für den Lehrgang Sachbearbeiter Rechnungswesen geeignet. Es empfiehlt sich auch als Nachschlagewerk für berufstätige.
+                    Ich habe über ein Jahrzehnt Erfahrung als gelernter Obst- und Gemüsehändler. In den Jahren 2019-2020 habe ich mich zum Dipl. Kaufmann VSH umschulen lassen und absolvierte im Jahr 2021 die Weiterbildung zum Sachbearbeiter Rechnungswesen VSK. Danach arbeitete ich als Finanzbuchhalter und stellvertretender CFO, für die Giezendanner Transport AG. 
+                    In meiner Freizeit kümmere ich mich um die Finanzen des Hilfswerks Ray of Hope, welches minderjährigen Flüchtlingen in Griechenland eine menschenwürdige Zukunft bietet. Neben dem Studium habe ich, mithilfe der Programmiersprache VBA, eine Buchhaltungssoftware entwickelt. Die neuste Version habe ich mit C# programmiert. In diesem Buch findest du einen Link für den Download dieses Programms.
+                    <h4>
+                        Details zum Buch
+                    </h4>
+                    <strong>Sprache:</strong> Deutsch<br>
+                    <strong>ISBN:</strong> 9783754941485<br>
+                    <strong>Format:</strong> DIN A5 hoch<br>
+                    <strong>Seiten:</strong> 260<br>
+                    <strong>Altersempfehlung:</strong> Erwachsene (18+ Jahre) (18 - 99)<br>
+                    <strong>Erscheinungsdatum:</strong> 17.01.2022<br>
+                    <strong>Schlagworte:</strong> Buchhaltung, Rechnungswesen, Kaderschule<br>
+                </p>
+                <p>
+                    Mit diesem Buch kriegst du das Buchhaltungsprogramm, inkl. Passwort.
+                </p><br><br>
+    
+                <h3>RöBu Kasse</h3>
+                <img src="Bilder/Kasse1.png" alt="Kasse1" width="360" height="120">
+                <p>
+                    Mit meinem Kassensystem wird deine Webcam zum Barcodescanner. Beim Kauf des Kassensystems bekommst du auch gleich das Passwort für meine Programme. Du musst es nicht zusätzlich bestellen. 
+                </p><br><br>
+    
+                <h3>RöBu Zeiterfassung</h3>
+                <img src="Bilder/Zeiterfassung1.jpg" alt="Zeiterfassung1" width="360" height="168">
+                <p>
+                    Die wohl simpelste Möglichkeit zur Erfassung der Arbeitszeit.
+                </p><br><br>
+    
+                <h3>Lizenz (Passwort)</h3>
+                <p>
+                    Mit diesem Passwort wird eine Testversion zur Vollversion. In der Preisliste siehst du welche Produkte dieses Passwort benötigen. 
+                </p><br><br>
+    
+                <h3>Erweiterungen</h3>
+                <p>
+                    Bei den Erweiterungen handelt es sich um Excel-Dateien, welche die Buchhaltungssoftware noch besser machen. Für diese Erweiterungen benötigst du das Passwort. 
+                </p><br><br>
+    
+                <h2>Preisliste</h2>
+                <table>
+                    <tr>
+                        <td><strong-shop>Produkt</strong></td>
+                        <td><strong-shop>Preis</strong></td>
+                        <td><strong-shop>Information</strong></td>
+                    </tr>
+                    <tr class="zweitezeile">
+                        <td>RöBu Buchhaltung</td>
+                        <td>0.00 CHF</td>
+                        <td>Demoversion</td>
+                    </tr>
+                    <tr>
+                        <td>RöBu Buchhaltung</td>
+                        <td>5.00 CHF</td>
+                        <td>Vollversion inkl. Passwort</td>
+                    </tr>
+                    <tr class="zweitezeile">
+                        <td>Mit mir kannst du rechnen</td>
+                        <td>24.20 CHF</td>
+                        <td>inkl. Porto und Verpackung</td>
+                    </tr>
+                    <tr>
+                        <td>RöBu Kasse</td>
+                        <td>5.00 CHF</td>
+                        <td>Vollversion inkl. Passwort</td>
+                    </tr>
+                    <tr class="zweitezeile">
+                        <td>RöBu Zeiterfassung</td>
+                        <td>2.00 CHF</td>
+                        <td>Vollversion ohne Passwortschutz</td>
+                    </tr>
+                    <tr>
+                        <td>RöBu Lizenz</td>
+                        <td>5.00 CHF</td>
+                        <td>Passwort für die Programme</td>
+                    </tr>
+                    <tr class="zweitezeile">
+                        <td>Erweiterungen</td>
+                        <td>0.00 CHF</td>
+                        <td>Passwortgeschützt</td>
+                    </tr>
+                    
+                </table><br>
+                <hr>
+                <h2>Warenkorb</h2>
+                <form class="shop" method="post" enctype="text/plain" action="Shop-Feedback.php">
+                    <fieldset>
+                    <label for="Name">Name: </label><input type="text" name="Name"><br>
+                    <label for="Name">Strasse und Nr: </label><input type="text" name="StrasseNr"><br>
+                    <label for="Name">PLZ und Ort: </label><input type="PLZOrt"><br>
+                    <label for="Name">E-Mail: </label><input type="text" name="E-Mail">
+                    
+                    <h3>Mengen</h3>
+                    <label for="Name">RöBu Demoversion: </label><br><br><input type="number" name="P1"><hr>
+                    <label for="Name">RöBu Vollversion: </label><br><input type="number" name="P2"><hr>
+                    <label for="Name">Sachbuch: </label><br><input type="number" name="P3"><hr>
+                    <label for="Name">RöBu Kasse: </label><br><input type="number" name="P4"><hr>
+                    <label for="Name">RöBu Zeiterfassung: </label><br><br><input type="number" name="P5"><hr>
+                    <label for="Name">RöBu Lizenz: </label><br><input type="number" name="P6"><hr>
+                    <label for="Name">Erweiterungen: </label><br><input type="number" name="P7"><hr>
+                    </fieldset>
+
+                    <strong>Ein Klick auf den Button "Bestellen" löst die Bestellung aus. </strong>Möchtest du deine Bestellung zurücknehmen oder ändern, melde dich bitte über das Kontaktformular. <a href="Kontakt.html">Kontakt</a><br>
+                    Mit dem Klick auf den folgenden Button akzeptierst du unsere allgemeinen Geschäftsbedingungen:
+                    <input type="submit" name="Submitbutton" id="submitbutton" value="Bestellen" onclick="formularPruefen(this.form); return false;">
+                    <a href="AGB.html">AGB</a><br>
+                    
+
+                </form>
+    
+            </div>
+            <div id="rechtliches">
+                <a href="AGB.html">AGB</a><a href="Impressum.html">Impressum</a><a href="Datenschutz.html">Datenschutz</a><a href="Haftungsausschluss.html">Haftungsausschluss</a><a href="Copyright.html">Copyright</a>
+            </div>
+
+        </div>
+        
+    </body>
+</html>
